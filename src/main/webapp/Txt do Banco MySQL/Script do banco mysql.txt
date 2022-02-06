@@ -1,0 +1,15 @@
+create database desafiosefaz;
+show databases;
+use desafiosefaz;
+create table usuarios(
+idusu int primary key auto_increment,
+nome varchar(50) not null,
+fone varchar(15) not null,
+email varchar(50),
+senha varchar (50)
+);
+
+show Tables;
+describe usuarios;
+
+select * from usuarios;

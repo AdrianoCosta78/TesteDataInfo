@@ -1,0 +1,364 @@
+@charset "utf-8";
+/*geral*/
+
+*{
+ 	margin: 0;
+ 	padding: 0;
+	box-sizing: border-box;
+ 	font-family: Helvetica;
+ 	color: #323232;
+ 	border: none;
+}
+
+body{
+ 	background-image: url('../imagens/0115.jpg');
+ 	background-size: cover;
+}
+
+textarea:focus, input:focus{
+	outline: none;
+}
+
+a, label{
+	font-size: .8rem;
+}
+
+a:hover{
+	color: #085588;
+}
+
+/*Container Login*/
+
+#login-container{
+	background-color: #fff;
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px 30px;
+	margin-top: 15vh;
+	border-radius: 10px;
+	text-align: center;
+}
+
+#login2-container{
+	background-color: #fff;
+	width:800px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 40px 40px;
+	margin-top: 15vh;
+	border-radius: 10px;
+}
+
+#login3-container{
+	background-color: #fff;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px 70px;
+	margin-top: 15vh;
+	border-radius: 10px;
+	text-align: center;
+}
+
+#login4-container{
+	background-color: #fff;
+	width: 1000px;
+	margin: auto;
+	padding: 10px 15px;
+	margin-top: 15vh;
+	border-radius: 10px;
+	
+}
+
+
+.texto{
+	
+	width: 1000px;
+	margin-left: 330px;
+	margin-right: -20px;
+	margin-top: 10vh;
+}
+
+.texto2{
+	
+	width: 800px;
+	margin-left: 80px;
+	margin-right: 200px;
+	margin-top: 10vh;
+}
+
+.foto{
+	
+	float: left;
+	margin-top: 10vh;
+	
+}
+
+#lista-container{
+	background-color: #fff;
+	width:1000px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 40px 40px;
+	margin-top: 20vh;
+	border-radius: 10px;
+}
+
+.caixa3{
+	padding: 5px;
+	margin-bottom: 10px;
+	border: 2px solid #ff0000;
+}
+
+/*Formulario*/
+
+
+
+form{
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: space-between;
+	margin-top: 30px;
+	
+}
+
+.tela-inteira{
+	flex: 1 1 100%;
+	position: relative;
+}
+	
+.meia-tela{
+	flex: 1 1 1 33%;
+	position: relative;
+}
+
+.spacing{
+	margin-right: 1%;
+}
+
+
+input {
+	border: 2px solid #323232;
+	padding: 10px;
+	font-size: 1rem;
+	margin-bottom: 20px;
+}
+
+
+label, input{
+	display: block;
+	text-align: left;
+	width: 100%;
+	
+}
+
+label{
+	font-weight: bold;
+		
+}
+
+
+input[type="submit"]{
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	border-radius: 20px;
+	margin-top:80px;
+	color: #fff;
+	background-color: #085588;
+	cursor: pointer;
+}
+
+
+input[type="submit"]:hover{
+	background-color: #18223C;
+	transition: .5s;
+}
+
+input:focus{
+	border-bottom: 2px solid #085588;
+}
+
+#forgot-pass{
+	text-align: right;
+	display: block;
+}
+
+#register-container p{
+	margin-bottom: 10px;
+}
+
+h1{
+	text-align: center;
+}
+
+.borda{
+	border: 2px solid ;
+}
+
+textarea{
+	font-size: 1rem;
+	margin-bottom: 20px;
+	display: block;
+	text-align: left;
+	width: 100%;
+	padding: 10px;
+}
+
+select{
+	border: 2px solid #323232;
+	padding: 10px;
+	font-size: 1rem;
+	margin-bottom: 20px;
+	
+	
+}
+
+.Botao1 {
+	text-decoration: none;
+	background-color: #66bbff;
+	padding: 5px 5px 5px 5px;
+	color:#fff;
+	font-size: 10px;
+	font-weight: 650;
+	border-radius: 5px;
+	border: 0;
+	cursor: pointer;
+	
+}
+
+.Botao2 {
+	text-decoration: none;
+	background-color: #d51213;
+	padding: 5px 5px 5px 5px;
+	color:#fff;
+	font-size: 10px;
+	font-weight: 650;
+	border-radius: 5px;
+}
+
+.Botao3 {
+	text-decoration: none;
+	background-color: #66bbff;
+	padding: 10px 5px 10px 5px;
+	color:#fff;
+	font-size: 14x;
+	font-weight: 650;
+	border-radius: 5px;
+	border: 50;
+	cursor: pointer;
+	margin-left: 600px;
+	margin-right: 100px;
+	
+}
+
+.Botao4 {
+	background-color: #d51213;
+	
+	margin-left: 0px;
+	margin-right: 600px;
+	
+}
+
+
+#tabela{
+	margin-top: 30px;
+	border-collapse: collapse;
+	
+}
+
+#tabela th{
+	border: 1px solid #ddd;
+	padding: 10px;
+	text-align: center;
+	background-color: #1994D6;
+	color: #fff;
+}
+
+#tabela td{
+	border: 1px solid #ddd;
+	padding: 10px;
+}
+
+/*Pagina index Cabeçalho*/
+
+nav{
+	position:fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100px;
+	padding:10px 90px;
+	box-sizing: border-box;
+	border-bottom: 1px solid #fff;
+	background: rgba(0,0,0,0.6);
+}
+
+nav .logo{
+	padding:22px 20px;
+	height: 80px;
+	float: left;
+	font-size: 40px;
+	text-transform: uppercase;
+	color: #fff;
+	font-family:meunome;
+	
+}
+
+@font-face{
+	font-family:meunome;
+	src: url('../fontes/Ramphal.otf');
+}
+
+
+nav ul{
+	list-style: none;
+	float: right;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+nav ul li a{
+	line-height: 80px;
+	color: #fff;
+	padding: 12px 30px;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+	
+}
+
+nav ul  a{
+	line-height: 80px;
+	color: #fff;
+	padding: 12px 30px;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+	
+}
+
+
+
+nav ul li a.hover{
+	background: rgba(0,0,0,0.7);
+	border-radius: 6px;
+}
+
+.video{
+	
+	position: absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	margin: auto;
+	
+	
+}
+
+
