@@ -5,7 +5,7 @@
 <title>Cadastro Novo Usuário</title>
 <link rel="stylesheet" href="css/style.css">
 
-			
+
 
 <script type="text/javascript">
 
@@ -49,42 +49,43 @@
 			}
 
 			</script>
-			<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-			<script src="//cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
-					
+<script
+	src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script
+	src="//cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
+
 
 </head>
-	<body>
+<body>
 	<nav>
 		<div class="logo">Adriano Costa</div>
-			<ul>
-		
-				<li><a href="login.jsp">Login</a></li>
-				<li><a href="Index.html">Voltar</a></li>
-			</ul>		
+		<ul>
+
+			<li><a href="login.jsp">Login</a></li>
+			<li><a href="Index.html">Voltar</a></li>
+		</ul>
 	</nav>
-	<div id= "login-container">
+	<div id="login-container">
 
 		<h1>Novo Usuário</h1>
-		
+
 		<form name="frmCadastroNovoUsuario" action="login">
-			<label for="nome">Nome</label>
-			<input type="text" name="nome" id="nome" placeholder="Digite seu nome" autocomplete="off">
-			
-			<label for="fone">Telefone</label>
-			<input type="text" name="fone" id="fone" placeholder="Digite seu telefone" autocomplete="off" >
-			
-			<label for="email">E-mail</label>
-			<input type="email" name="email" id="email" placeholder="Digite seu e-mail" autocomplete="off">
-			
-			<label for="senha">Senha</label>
-			<input type="password" name= "senha" id="senha" placeholder="Digite a sua senha">
-			
-			<input type="submit"  onclick="return validarFormCadastro()">
+			<label for="nome">Nome</label> <input type="text" name="nome"
+				id="nome" placeholder="Digite seu nome" autocomplete="off">
+
+			<label for="fone">Telefone</label> <input type="text" name="fone"
+				id="fone" placeholder="Digite seu telefone" autocomplete="off">
+
+			<label for="email">E-mail</label> <input type="email" name="email"
+				id="email" placeholder="Digite seu e-mail" autocomplete="off">
+
+			<label for="senha">Senha</label> <input type="password" name="senha"
+				id="senha" placeholder="Digite a sua senha"> <input
+				type="submit" onclick="return validarFormCadastro()">
 		</form>
-		
+
 	</div>
-			<script>
+	<script>
 				$("#fone").mask("(99) 99999-9999");
 			</script>
 </body>

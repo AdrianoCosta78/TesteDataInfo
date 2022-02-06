@@ -8,14 +8,14 @@
 
 
 </head>
-	<nav>
-		<div class="logo">Adriano Costa</div>
-			<ul>
-			
-				<li><a href="listarUsuarios.jsp">Listar Contatos</a></li>
-				<li><a href="Index.html">Sair</a></li>
-			</ul>		
-	</nav>
-	
+<nav>
+	<div class="logo">Adriano Costa</div>
+	<ul>
+
+		<li><a href="listarUsuarios.jsp">Listar Contatos</a></li>
+		<li><a href="Index.html">Sair</a></li>
+	</ul>
+</nav>
+
 
 </html>
