@@ -10,10 +10,18 @@ public class DAO {
 
 	// Parametros de conexão
 	private String driver = "com.mysql.cj.jdbc.Driver";
-	private String url = "jdbc:mysql://127.0.0.1:3306/desafiosefaz?useTimezone=true&serverTimezone=UTC";
-	private String user = "root";
-	private String password = "1234";
+	private String url = "jdbc:mysql://us-cdbr-east-05.cleardb.net:3306/heroku_c9528f51da03b6c?useTimezone=true&serverTimezone=UTC";
+	private String user = "bf4a16619ce498";
+	private String password = "c16e5857";
 
+	//mysql://bf4a16619ce498:c16e5857@us-cdbr-east-05.cleardb.net/heroku_c9528f51da03b6c?reconnect=true
+	//localhost = us-cdbr-east-05.cleardb.net
+	//url = 
+	//user = root = bf4a16619ce498
+	//passoword = c16e5857
+	//nome do banco = heroku_c9528f51da03b6c
+	
+	
 	// Método de conexão
 	public Connection conectar() {
 		Connection con = null;
